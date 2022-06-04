@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald&family=Roboto+Mono:wght@100;400;700&display=swap');
+body{
+    background-color: #37373E;
+    font-family: 'Roboto Mono', monospace;
+}
+h1{
+    font-size: 72px;
+    font-weight:bold;
+    color: #8aa7ec ;
+
+}
+.form-control:valid {
+    background-color:  #00000035!important;
+    border: none;
+    color: white;
+  }
+  .add_btn{
+color: white;
+font-weight: bold;
+/* background-color: #ff7979 */
+background-color: #8aa7ec;
+  }
+  .Tasks{
+      flex: 1 1 0%;
+      max-width: 1000px;
+      max-height: 500px;
+      width: 100%;
+      margin: 0 auto;
+      padding: 1rem;
+  }
+  h2{
+      font-size: 1.5rem;
+      font-weight:500;
+      color: rgb(202, 202, 202);
+      margin-bottom:1rem;
+  }
+  #tasks .task{
+      display: flex;
+      justify-content: space-between;
+      background-color: #212121;
+      padding: 5px;
+      border-radius: 10px;
+      margin-bottom: 5px;
+      border: none;
+      color: white; 
+      margin-top: 10px;
+
+  }
+
+  #tasks .task .content .text{
+      color: white;
+      margin-top:5px;
+  }
+ .actions .btn{
+     color:#53baff;
+}
+
+.actions .btn:hover{
+    color: rgb(192, 192, 192);
+    
+}
+.checked {
+    color: rgb(254, 130, 130);
+    text-decoration: line-through;
+  }
+.Task_state{
+    color:#aa8fd8;
+    margin-top: 5px;
+}
+.achevid_Task{
+    color:#d16ba5;
+}
+h5{
+    padding: 100px;
+    color: #d16ba5;
+    margin-top: 190px;
+}
